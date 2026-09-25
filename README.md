@@ -1,2 +1,0 @@
-# oxide-terminal
-Oxide Terminal
