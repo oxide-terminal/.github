@@ -1,0 +1,52 @@
+name: Bug report
+description: Something in Oxide isn't working the way it should
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Oxide
+        2. Run `...`
+        3. Press `...`
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Oxide version
+      description: "**Oxide → About Oxide**, or `oxide --version`"
+      placeholder: "0.6.1"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "macOS 15.1 (Apple Silicon) / Arch Linux, Wayland, Mesa 24.2"
+    validations:
+      required: true
+  - type: input
+    id: shell
+    attributes:
+      label: Shell
+      placeholder: "zsh 5.9 / bash 5.2 / fish 3.7"
+  - type: textarea
+    id: config
+    attributes:
+      label: Relevant config
+      description: The parts of `~/.config/oxide/config.toml` that matter, if any.
+      render: toml
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, logs, or a screen recording. Drag and drop works here.

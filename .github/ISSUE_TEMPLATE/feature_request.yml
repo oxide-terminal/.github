@@ -1,0 +1,22 @@
+name: Feature request
+description: Suggest something Oxide should do
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The workflow or problem, not just the feature. That helps us find the right fix.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like Oxide to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds or prior art
+      description: How you handle it today, or how another terminal (tmux, Ghostty, WezTerm, Kitty, iTerm2...) does it.

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/oxide-terminal/.github/blob/main/SECURITY.md
+    about: Please don't open a public issue. Email security@oxideterminal.com instead.
+  - name: Questions and support
+    url: https://discord.gg/APV9FYGgeh
+    about: Ask on Discord for help with setup, config, or anything that isn't a bug.
+  - name: Docs
+    url: https://oxideterminal.com/docs/
+    about: Check the docs first. The answer might already be there.
