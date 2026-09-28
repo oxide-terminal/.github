@@ -64,4 +64,4 @@ Full instructions, including the DMG and Arch routes, are in the
 
 - **Found a bug or want a feature?** Open an issue on [oxide-terminal/oxide](https://github.com/oxide-terminal/oxide/issues).
 - **Want to talk?** Join the [Discord](https://discord.gg/APV9FYGgeh) or email [hello@oxideterminal.com](mailto:hello@oxideterminal.com).
-- **Want to follow along?** Read the [blog](https://blog.oxideterminal.com) or watch the [changelog](https://oxideterminal.com/changelog/).
+- **Want to follow along?** Watch the [changelog](https://oxideterminal.com/changelog/).
