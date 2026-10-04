@@ -5,7 +5,8 @@
 <h1 align="center">Oxide Terminal</h1>
 
 <p align="center">
-  A native terminal emulator for macOS and Linux, written entirely in Rust.<br/>
+  <strong>The tools you'd normally bolt onto your terminal, built in.</strong><br/>
+  A native terminal for macOS and Linux, written entirely in Rust.<br/>
   <em>Rust is iron oxide. It's a whole thing.</em>
 </p>
 
@@ -30,13 +31,19 @@
   <a href="https://github.com/oxide-terminal/oxide"><img src="https://raw.githubusercontent.com/oxide-terminal/oxide/main/assets/screenshots/main.webp" alt="Oxide Terminal: file tree drawer, tabs above split panes running cargo test and cargo run, and a git-aware status bar" /></a>
 </p>
 
-Oxide is a GPU-rendered terminal built on [GPUI](https://www.gpui.rs) (Zed's UI framework) and
-[`alacritty_terminal`](https://crates.io/crates/alacritty_terminal) (Alacritty's PTY and VT parser).
-The things you'd normally bolt on — a file tree you drive like vim, tmux-style workspaces and splits,
-a powerline prompt, a vim copy mode, scrollback search — are built in, and all of it lives in one
-TOML file that reloads when you save.
+If your terminal is really a terminal plus a stack of add-ons — tmux for splits and sessions,
+a file manager in another pane, a prompt framework, a copy-mode plugin — Oxide builds those in.
+A file tree you drive like vim sits beside your panes and follows your shell's `cd`. Tabs and
+splits group into named workspaces you can pin, so they reopen with the same layout and
+directories. Copy mode puts vim keys on the scrollback, and the status bar knows your git
+branch and when you're inside `ssh`. It's all configured in one TOML file that reloads when
+you save.
 
-No account. No AI. No telemetry. The only thing Oxide asks the network is whether GitHub has a newer release.
+Under the hood, it's GPU-rendered on [GPUI](https://www.gpui.rs) (Zed's UI framework), with
+[`alacritty_terminal`](https://crates.io/crates/alacritty_terminal) (Alacritty's PTY and VT parser)
+doing the emulation, so vim, htop, and tmux itself still just work.
+
+No account. No AI. No telemetry. The only thing Oxide asks the network is whether there's a newer release.
 
 ## Install
 
