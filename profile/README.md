@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/oxide-terminal/oxide"><img src="https://raw.githubusercontent.com/oxide-terminal/oxide/main/assets/screenshots/main.webp" alt="Oxide Terminal: file tree drawer, tabs above a terminal running cargo build, and a git-aware status bar" /></a>
+  <a href="https://github.com/oxide-terminal/oxide"><img src="https://raw.githubusercontent.com/oxide-terminal/oxide/main/assets/screenshots/main.webp" alt="Oxide Terminal: file tree drawer, tabs above split panes running cargo test and cargo run, and a git-aware status bar" /></a>
 </p>
 
 Oxide is a GPU-rendered terminal built on [GPUI](https://www.gpui.rs) (Zed's UI framework) and
