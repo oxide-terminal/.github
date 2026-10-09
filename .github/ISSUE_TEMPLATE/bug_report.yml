@@ -1,5 +1,5 @@
 name: Bug report
-description: Something in Oxide isn't working the way it should
+description: Something in OmniPTY isn't working the way it should
 labels: [bug]
 body:
   - type: textarea
@@ -14,7 +14,7 @@ body:
     attributes:
       label: Steps to reproduce
       placeholder: |
-        1. Open Oxide
+        1. Open OmniPTY
         2. Run `...`
         3. Press `...`
     validations:
@@ -22,8 +22,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: Oxide version
-      description: "**Oxide → About Oxide**, or `oxide --version`"
+      label: OmniPTY version
+      description: "**OmniPTY → About OmniPTY**, or `omnipty --version`"
       placeholder: "0.6.1"
     validations:
       required: true
@@ -43,7 +43,7 @@ body:
     id: config
     attributes:
       label: Relevant config
-      description: The parts of `~/.config/oxide/config.toml` that matter, if any.
+      description: The parts of `~/.config/omnipty/config.toml` that matter, if any.
       render: toml
   - type: textarea
     id: extra

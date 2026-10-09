@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest something Oxide should do
+description: Suggest something OmniPTY should do
 labels: [enhancement]
 body:
   - type: textarea
@@ -12,7 +12,7 @@ body:
   - type: textarea
     id: proposal
     attributes:
-      label: What would you like Oxide to do?
+      label: What would you like OmniPTY to do?
     validations:
       required: true
   - type: textarea
