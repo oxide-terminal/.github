@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security vulnerability
-    url: https://github.com/omnipty/.github/blob/main/SECURITY.md
+    url: https://github.com/omnipty-terminal/.github/blob/main/SECURITY.md
     about: Please don't open a public issue. Email security@omnipty.com instead.
   - name: Questions and support
     url: https://discord.gg/APV9FYGgeh

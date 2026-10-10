@@ -16,12 +16,12 @@ rather stay anonymous.
 
 ## Supported versions
 
-Only the [latest release](https://github.com/omnipty/omnipty/releases/latest)
+Only the [latest release](https://github.com/omnipty-terminal/omnipty/releases/latest)
 receives security fixes. OmniPTY checks for updates on launch, so staying current is
 the default.
 
 ## Scope
 
-This policy covers everything under the [omnipty](https://github.com/omnipty)
+This policy covers everything under the [omnipty](https://github.com/omnipty-terminal)
 organization, including the terminal itself, the Homebrew tap, and
 [omnipty.com](https://omnipty.com).
