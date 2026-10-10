@@ -14,7 +14,6 @@
   <a href="https://omnipty.com/docs/">Docs</a> ·
   <a href="https://omnipty.com/changelog/">Changelog</a> ·
   <a href="https://omnipty.com/compare/">Compare</a> ·
-  <a href="https://blog.omnipty.com">Blog</a> ·
   <a href="https://discord.gg/APV9FYGgeh">Discord</a>
 </p>
 
