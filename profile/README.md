@@ -23,7 +23,7 @@
   <a href="https://github.com/omnipty-terminal/omnipty/actions/workflows/ci.yml"><img src="https://github.com/omnipty-terminal/omnipty/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
   <a href="https://github.com/omnipty-terminal/omnipty/blob/main/LICENSE"><img src="https://img.shields.io/github/license/omnipty-terminal/omnipty" alt="MIT license" /></a>
   <a href="https://discord.gg/APV9FYGgeh"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white" alt="Join the Discord" /></a>
-  <a href="https://github.com/sponsors/omnipty"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-e2725b?logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" /></a>
+  <a href="https://github.com/sponsors/omnipty-terminal"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-e2725b?logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" /></a>
 </p>
 
 <p align="center">
